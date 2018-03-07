@@ -1,0 +1,56 @@
+body{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.upperside{
+	width: 90%;
+	margin-bottom: 60px;
+}
+.downside{
+	width: 90%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.internet{
+	width: 30%;
+	display: inline-block;
+}
+.textupper{
+	width: 65%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 4%;
+	font-size: 12pt;
+	padding-top: 60px;
+}
+.headerup{
+font-size: 32pt;
+padding-bottom: 30px;
+}
+p{
+	padding-bottom: 30px;
+}
+
+.web
+{
+	width: 30%;
+	display: inline-block;
+}
+.textdowner
+{
+	width: 65%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding-top: 60px;
+
+}
+.headerdown{
+	font-size: 32pt;
+	padding-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .internet , .textupper{
+  	width: 100%;
+  }
+}
