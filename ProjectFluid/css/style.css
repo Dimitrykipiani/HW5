@@ -10,6 +10,7 @@ body{
 	width: 90%;
 	padding-top: 60px;
 	padding-bottom: 60px;
+	
 }
 .internet{
 	width: 30%;
@@ -43,14 +44,22 @@ p{
 	vertical-align: top;
 	text-align: left;
 	padding-top: 60px;
+	float: left;
+	text-align: right;
 
 }
 .headerdown{
 	font-size: 32pt;
 	padding-bottom: 30px;
+
 }
 @media only screen and (max-width: 600px) {
-  .internet , .textupper{
+  .internet , .textupper , .web , .textdowner {
   	width: 100%;
+  }
+  .textupper , .textdowner{
+  	padding: top 5%;
+  	padding-left: 0%;
+  	text-align: left;
   }
 }
